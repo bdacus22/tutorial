@@ -1,1 +1,7 @@
-
+def dummy_func(x=0, y=0):
+    """This function takes two optional arguments (x and y) with default values of zero and adds them together 
+    to create a new variable z, then prints it."""
+    print("x is", x)
+    print("y is", y)
+    z=x+y
+    print("z is", z)
