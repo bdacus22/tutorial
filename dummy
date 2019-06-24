@@ -5,3 +5,10 @@ def dummy_func(x=0, y=0):
     print("y is", y)
     z=x+y
     print("z is", z)
+    if z != 0:
+    	q=x/z
+    	r=y/z
+    	if q>r:
+		print("x has contributed more to z")
+    	else:
+		print("y has contributed more to z")
